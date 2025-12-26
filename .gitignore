@@ -24,9 +24,11 @@ wheels/
 *.egg
 
 # Discord Bot
-# config.py  # Uncomment if you want to ignore config.py
+config.py  # ملف الإعدادات الحقيقي - لا ترفعه على GitHub!
 .env
 *.log
+.env.local
+.env.*.local
 
 # IDE
 .vscode/
